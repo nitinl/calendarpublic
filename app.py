@@ -3,9 +3,7 @@ from flask_cors import CORS
 import sqlite3
 #this connects to Front End
 
-app=Flask(__name__,
-                   static_folder='./frontend/dist/static',
-                   template_folder='./frontend/dist')
+app=Flask(__name__)
 
 
 cors = CORS(app, resources= {r"/day/*":
