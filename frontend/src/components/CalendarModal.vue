@@ -12,6 +12,8 @@
       <div class="cabecera">
         <div><br /></div>
         <div class="titulo">{{ this.dia }}</div>
+       <div @click.prevent="$parent.closeModal" class="close_button">X</div>
+
         <img
           src="./images/x2.png"
           alt="cerrar"

@@ -13,7 +13,7 @@
       <p>{{ this.DayData.failmessage }}</p>-->
 
       
-      <img src="./images/x1.png" alt="cerrar" @click.prevent="$parent.closeModal" class="button_close">
+      <div  @click.prevent="$parent.closeModal" class="button_close" style="font-size: 18px; color: #fff; padding: 0.5rem; cursor: pointer;"></div>
     </div>
   </div>
 </template>

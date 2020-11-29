@@ -2,7 +2,7 @@
   <div class="container">
 
     <div class="derecha">
-          <div class="titulo-principal">wELCOME TO ANA'S CHRISTMAS CALENDAR</div>
+          <div class="titulo-principal">WELCOME TO ANA'S CHRISTMAS CALENDAR</div>
       <div class="wrap">
         <div>
           <Calendar />        
@@ -69,8 +69,6 @@ height: auto;
   display: flex;
   flex-direction: row;
 }
-
-
 
 .wrap {
   margin-left: auto;

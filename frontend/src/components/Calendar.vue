@@ -446,7 +446,7 @@ getAnswer(DayID) {
         "-" +
         today.getDate();
 
-      if (date <= "this.dateData.dateCode") {
+      if (date >= "this.dateData.dateCode") {
         console.log("date is fine");
             this.getDay(DayInteger);
             this.getQuestion(DayInteger);

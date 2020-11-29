@@ -2,7 +2,8 @@
   <div class="container_Pop">
     
 
-    <img src="./images/x1.png" alt="cerrar" @click.prevent="$parent.closeWrongAnswerPop" class="close_button">
+        <div  @click.prevent="$parent.closeTooEarlyPop" class="close_button" style="font-size: 18px; color: #fff; padding: 0.5rem; cursor: pointer;">X</div>
+
 
     <p class="mensaje">
       WRONG!
